@@ -87,6 +87,10 @@ p {
     font-weight: 700;
     letter-spacing: .5px;
 }
+#but:hover{
+    background-color: hsl(158, 36%, 87%);
+}
+
 @media only screen and (max-width : 405px) {
     main {
         flex-direction: column;
