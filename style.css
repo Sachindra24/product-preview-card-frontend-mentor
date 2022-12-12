@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    color : hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    display: flex;
+    max-width: 580px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+}
+/* LEFT-IMG-DIV */
+.lef-img img {
+    width: 300px;  
+    min-width: 100%;
+    display: block; 
+}
+
+/* RIGHT-DES-DIV */
+.rig-des {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:  hsl(0, 0%, 100%);
+    padding : 1.7rem;
+    
+}
+.rig-des h2{
+    text-align: left;
+    font-size: .8rem;
+    letter-spacing: 4px;
+    margin-top: 10px;
+}
+.rig-des h1 {
+    font-size: 2.3rem;
+    line-height: 2.3rem;   
+    font-family: 'Fraunces', serif; 
+    color: hsl(212, 21%, 14%);
+}
+.cost {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.n-pri{
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+.og-pri {
+    text-decoration: line-through;
+    margin-right: 40px;
+}
+p {
+   line-height: 1.5rem;
+}
+#cart {
+    margin-right: 10px;
+}
+#but {
+    background-color: hsl(158, 36%, 37%);
+    padding : 1rem;
+    color : #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+@media only screen and (max-width : 405px) {
+    main {
+        flex-direction: column;
+        width: 320px;
+    }
+    .rig-des {
+        height: 350px;
+        justify-content: space-evenly;
+    }
+    
+}
